@@ -12,9 +12,7 @@ body {
   font-size: 14px;
   color: var(--principal-text-color);
 }
-.no-underline {
-  text-decoration: none;
-}
+
 h1,
 h2,
 h3,
@@ -37,6 +35,15 @@ ul {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--principal-text-color);
+}
+.global-header a:hover,
+.global-header a:focus {
+  color: #2196f3;
+}
+.footer-section a:hover,
+.footer-section a:focus {
   color: #2196f3;
 }
 
@@ -45,6 +52,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--principal-text-color);
+  text-decoration: none;
 }
 
 .navigation a:hover,
@@ -57,6 +65,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  text-decoration: none;
 }
 
 .contact-info a:hover,
@@ -175,22 +184,26 @@ ul {
   color: var(--text-color);
 }
 
-/* Footer-Section */
+/*Footer Section */
 
 .footer-section {
   background: #2f303a;
 }
 
 .map {
+  font-style: normal;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .contact-info {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
 }
 
 /* Portofoliu */
