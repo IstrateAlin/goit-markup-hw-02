@@ -228,7 +228,6 @@ ul {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  border: 0;
 }
 
 .portfolio-nav button:hover,
@@ -236,6 +235,7 @@ ul {
 .portfolio-nav button:active {
   background: #2196f3;
   color: #fff;
+  cursor: pointer;
 }
 
 .portfolio-section p {
