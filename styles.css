@@ -38,8 +38,16 @@ ul {
   text-decoration: none;
   color: var(--principal-text-color);
 }
+.global-header .Flogo {
+  color: #2196f3;
+}
+.global-header .StLogo {
+  color: #212121;
+}
+
 .global-header a:hover,
-.global-header a:focus {
+.global-header a:focus,
+.global-header a:active {
   color: #2196f3;
 }
 .footer-section a:hover,
@@ -186,6 +194,13 @@ ul {
 
 /*Footer Section */
 
+.footer-section .SLogo {
+  color: #2196f3;
+}
+.footer-section .TLogo {
+  color: #ffffff;
+}
+
 .footer-section {
   background: #2f303a;
 }
@@ -213,11 +228,14 @@ ul {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
+  border: 0;
 }
 
 .portfolio-nav button:hover,
-.portfolio-nav button:focus {
-  color: #2196f3;
+.portfolio-nav button:focus,
+.portfolio-nav button:active {
+  background: #2196f3;
+  color: #fff;
 }
 
 .portfolio-section p {
