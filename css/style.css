@@ -7,10 +7,10 @@
     --white: rgba(255, 255, 255, 1);
     --gray:rgba(117, 117, 117, 1);
     --black-light:rgba(47, 48, 58, 1);
- 
 }
 body{
     font-family: var(--primary-font);
+    color:var(--black);
 }
 
 /* Header Styles */
@@ -96,7 +96,6 @@ body{
 }
 
 .main-about__title {
-    color:var(--black);
     font-weight: 700;
     font-size:14px;
     line-height: 1.4em;
@@ -118,7 +117,6 @@ body{
 }
 
 .main-ocupation__title {
-    color:var(--black);
     font-weight: 700;
     font-size:36px;
     line-height: 1.2em;
@@ -128,14 +126,12 @@ body{
 /* Our Team Section */
 
 .main-team__title {
-    color:var(--black);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2em;
 }
 
 .main-team__subtitle  {
-    color:var(--black);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.4em;
@@ -229,7 +225,6 @@ body{
 /* Presenation Section */
 
 .port-content__titles{
-    color:var(--black);
     font-weight: 700;
     font-size:18px;
     line-height: 1.2em;
