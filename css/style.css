@@ -216,8 +216,8 @@ body{
     cursor: pointer;
 }
 
-.portfolio__nav  :hover,
-.portfolio__nav  :focus {
+.port__btn  :hover,
+.port__btn :focus {
     background-color:var(--blue);
     color:var(--white)
 }
