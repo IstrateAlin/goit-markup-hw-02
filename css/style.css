@@ -216,7 +216,7 @@ body{
     cursor: pointer;
 }
 
-.port__btn  :hover,
+.port__btn :hover,
 .port__btn :focus {
     background-color:var(--blue);
     color:var(--white)
